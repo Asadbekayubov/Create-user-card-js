@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -112,4 +112,10 @@ body {
 
 .item-name , .item-number , .item-age , .item-gender{
     font-weight: 600;
+}
+
+@media screen and (max-width:500px) {
+    .site-list{
+      width: 80%;
+    }
 }
