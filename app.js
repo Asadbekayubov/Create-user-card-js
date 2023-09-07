@@ -41,7 +41,7 @@ form.addEventListener("submit" , (e)=> {
     })
 
     updateUI(users);
-    
+    form.reset()
 })
 
 function updateUI(users){
